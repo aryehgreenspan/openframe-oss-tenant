@@ -8,12 +8,13 @@
 
 # OpenFrame OSS Tenant
 
+
 **A distributed platform that creates a unified layer for data, APIs, automation, and AI**
 
-[![License](https://img.shields.io/badge/License-Flamingo%20AI%20Unified%20v1.0-blue?style=for-the-badge&color=%235EFAF0)](LICENSE.md)
-[![GitHub release](https://img.shields.io/github/release/flamingo-stack/openframe-oss-tenant.svg?style=for-the-badge&color=%23F357BB)](https://github.com/flamingo-stack/openframe-oss-tenant/releases)
-[![Documentation](https://img.shields.io/badge/docs-flamingo.run-blue?style=for-the-badge&color=%235EFAF0)](https://www.flamingo.run/knowledge-base)
-[![Community](https://img.shields.io/badge/community-openmsp.ai-pink?style=for-the-badge&color=%23F357BB)](https://www.openmsp.ai/)
+[![License](https://img.shields.io/badge/License-The%20Flamingo%20AI%20Unified%20License%20v1.0-blue?style=for-the-badge&color=%23FFC109)](LICENSE.md)
+[![GitHub release](https://img.shields.io/github/release/flamingo-stack/openframe-oss-tenant.svg?style=for-the-badge&color=%23FFC109)](https://github.com/flamingo-stack/openframe-oss-tenant/releases)
+[![Documentation](https://img.shields.io/badge/docs-flamingo.run-blue?style=for-the-badge&color=%23FFC109)](https://www.flamingo.run/knowledge-base)
+[![Community](https://img.shields.io/badge/community-openmsp.ai-pink?style=for-the-badge&color=%23FFC109)](https://www.openmsp.ai/)
 
 [🚀 Quick Start](#-quick-start) · [📖 Documentation](https://www.flamingo.run/knowledge-base) · [🤝 Community](https://www.openmsp.ai/) · [🛡️ Security](#-security)
 
@@ -21,14 +22,16 @@
 
 ---
 
+
 ## ✨ Highlights
 
-- **🎯 Unified Dashboard** - Single interface for managing all services and workflows
-- **🤖 Smart Automation** - Automated deployment and monitoring capabilities  
-- **🧠 AI-Powered Insights** - Real-time anomaly detection and intelligent assistants
-- **🔒 Enterprise Security** - Integrated security controls across all services
-- **⚡ High Performance** - Handles 100,000+ events/second with sub-500ms latency
-- **📈 Scalable Architecture** - Built on proven microservices principles
+- **Unified Dashboard** - Single interface for managing all services and workflows
+- **Smart Automation** - Automated deployment and monitoring capabilities  
+- **AI-Powered Insights** - Real-time anomaly detection and intelligent assistants
+- **Enterprise Security** - Integrated security controls across all services
+- **High Performance** - Handles 100,000+ events/second with sub-500ms latency
+- **Scalable Architecture** - Built on proven microservices principles
+
 
 ## 🏗️ Architecture
 
@@ -62,17 +65,17 @@ flowchart TB
         Prometheus[Monitoring] --> Grafana[Visualization]
     end
     
-    style Gateway fill:#F357BB,stroke:#1A1A1A,color:#FFFFFF
-    style Stream fill:#5EFAF0,stroke:#1A1A1A,color:#1A1A1A
-    style MongoDB fill:#F357BB,stroke:#1A1A1A,color:#FFFFFF
-    style K8s fill:#5EFAF0,stroke:#1A1A1A,color:#1A1A1A
+    style Gateway fill:#FFC109,stroke:#1A1A1A,color:#FAFAFA
+    style Stream fill:#666666,stroke:#1A1A1A,color:#FAFAFA
+    style MongoDB fill:#212121,stroke:#1A1A1A,color:#FAFAFA
+    style K8s fill:#FFC109,stroke:#1A1A1A,color:#212121
 ```
 
 ## 🚀 Quick Start
 
 Get OpenFrame running locally in under 5 minutes! Choose your platform:
 
-### 🪟 Windows
+###Windows
 ```powershell
 # Interactive mode
 .\scripts\run-windows.ps1
@@ -81,7 +84,7 @@ Get OpenFrame running locally in under 5 minutes! Choose your platform:
 .\scripts\run-windows.ps1 -Silent
 ```
 
-### 🍎 macOS
+###macOS
 ```bash
 # Interactive mode
 ./scripts/run-mac.sh
@@ -90,7 +93,7 @@ Get OpenFrame running locally in under 5 minutes! Choose your platform:
 ./scripts/run-mac.sh --silent
 ```
 
-### 🐧 Linux
+###Linux
 ```bash
 # Interactive mode
 ./scripts/run-linux.sh
@@ -108,6 +111,7 @@ Create a GitHub Personal Access Token (Classic) with these permissions:
 
 [Create token →](https://github.com/settings/tokens)
 
+
 ### 🌐 Access Your Instance
 
 Once started, OpenFrame will be available at:
@@ -115,9 +119,10 @@ Once started, OpenFrame will be available at:
 - **GraphQL API:** http://localhost:8080/graphql
 - **Config Server:** http://localhost:8888
 
+
 ## ☸️ Deployment Options
 
-### 🐳 Docker Compose (Development)
+###Docker Compose (Development)
 ```bash
 # Build and start all services
 docker-compose up -d
@@ -126,7 +131,7 @@ docker-compose up -d
 docker-compose logs -f
 ```
 
-### ⚓ Kubernetes (Production)
+###Kubernetes (Production)
 ```bash
 # Deploy to Kubernetes cluster
 kubectl apply -f k8s/
@@ -217,11 +222,11 @@ cargo test
 We love contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ### Quick Contributing Steps:
-1. 🍴 Fork the project
-2. 🌿 Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. ✍️ Commit your changes (`git commit -m 'Add amazing feature'`)
-4. 📤 Push to the branch (`git push origin feature/amazing-feature`)
-5. 🔄 Open a Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## 📚 Documentation
 
@@ -264,18 +269,18 @@ Yes, enterprise support is available through [Flamingo](https://www.flamingo.run
 
 OpenFrame takes security seriously. We implement:
 
-- **🔐 OAuth 2.0 + JWT** authentication
-- **🛡️ AES-256** encryption for data at rest
-- **📝 Comprehensive** audit logging
-- **🏢 Multi-tenant** isolation
-- **🚦 Rate limiting** and circuit breakers
-- **👁️ Real-time** security monitoring
+- **OAuth 2.0 + JWT** authentication
+- **AES-256** encryption for data at rest
+- **Comprehensive** audit logging
+- **Multi-tenant** isolation
+- **Rate limiting** and circuit breakers
+- **Real-time** security monitoring
 
 Found a security issue? Please email security@flamingo.run instead of opening a public issue.
 
 ## 📄 License
 
-This project is licensed under the [The Flamingo AI Unified License](LICENSE.md).
+This project is licensed under the [Apache License 2.0](LICENSE.md).
 
 ## 🙏 Acknowledgments
 
@@ -287,11 +292,15 @@ This project is licensed under the [The Flamingo AI Unified License](LICENSE.md)
 
 <div align="center">
 
-Built with 💖 by the [**Flamingo**](https://www.flamingo.run) team
+Built with 💛 by the [**Flamingo**](https://www.flamingo.run) team
 
 [🌐 Website](https://www.flamingo.run) • [📚 Knowledge Base](https://www.flamingo.run/knowledge-base) • [💼 LinkedIn](https://www.linkedin.com/showcase/openframemsp/about/) • [🤝 Community](https://www.openmsp.ai/)
 
 **Made in 🏖️ Miami Beach, FL**
+
+🦩
+
+</div>
 
 🦩
 
