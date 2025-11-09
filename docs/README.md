@@ -1,4 +1,4 @@
-# OpenFrame Documentation
+# OpenFrame Documentation1
 
 Welcome to the comprehensive OpenFrame documentation! This unified documentation hub provides everything you need to understand, develop, deploy, and operate the OpenFrame platform.
 
