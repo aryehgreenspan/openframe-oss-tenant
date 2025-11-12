@@ -3,6 +3,7 @@ environment: dev
 deployment:
   oss:
     enabled: true    
+    publicDomain: "psa.digacore.com.ngrok.app"
     # Ingress configuration - enable only ONE of the following
     ingress:
       localhost:
