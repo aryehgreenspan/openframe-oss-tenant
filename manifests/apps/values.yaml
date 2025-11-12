@@ -6,12 +6,12 @@ deployment:
     # Ingress configuration - enable only ONE of the following
     ingress:
       localhost:
-        enabled: true   # Enable localhost ingress with nginx
+        enabled: false   # Enable localhost ingress with nginx
       ngrok:
-        enabled: false  # Enable ngrok ingress for external access
+        enabled: true  # Enable ngrok ingress for external access
         credentials:
-          apiKey: ""
-          authtoken: ""
+          apiKey: "35MQ0mjrscPqTEmUiuEYgKMDomf_4mqD92eujBX7EmpCfXZup"
+          authtoken: "35MPXHPKp6fnOSMT2Z2YyYoRx8r_2SXcFRjH7e5pkZs7gNzHQ"
     repository:
       baseDir: manifests
       appsDir: apps

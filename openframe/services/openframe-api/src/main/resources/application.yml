@@ -1,6 +1,14 @@
 spring:
   application:
     name: openframe-api
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/openframe
+    cassandra:
+      keyspace-name: openframe
+      contact-points: localhost
+ kafka:
+   bootstrap-servers: localhost:9092
   config:
     url: http://openframe-config.microservices.svc.cluster.local:8888
     activate:
