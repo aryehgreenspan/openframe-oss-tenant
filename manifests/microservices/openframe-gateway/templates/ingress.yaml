@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: localhost
+    - host: psa.digacore.com.ngrok.app
       http:
         paths:
           - path: /
