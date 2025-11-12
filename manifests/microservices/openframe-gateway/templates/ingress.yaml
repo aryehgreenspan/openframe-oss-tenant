@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: psa.digacore.com.ngrok.app
+    - host: rickey-nonrectifiable-maryanne.ngrok-free.dev
       http:
         paths:
           - path: /
